@@ -1,0 +1,71 @@
+body {
+  display: grid;
+  min-height: 100vh;
+}
+
+
+
+.hero {
+  align-self: flex-start;
+}
+
+.footer {
+  align-self: flex-end;
+}
+
+/* !             */
+/* ! Section One */
+/* !             */
+
+.sectionOne {
+  margin-top: 15px;
+}
+
+.sectionOne-content-text {
+  font-family: var(--base-font);
+  font-size: var(--sub);
+}
+.sectionOne-formulaire {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 40px 0;
+  gap: 25px;
+  align-items: center;
+}
+
+
+.sectionOne-formulaire form {
+  display: flex;
+  flex-direction: column;
+}
+
+.sectionOne-formulaire label{
+  font-family: var(--base-font);
+  font-size: var(--sub);
+}
+
+input,
+textarea {
+  padding: 10px 20px;
+  margin: 8px 0;
+  background-color: #eeeeee;
+  border: 1.5px solid #212529;
+  border-radius: 3px;
+}
+
+.submit-btn {
+  margin-top: 10px;
+}
+
+/* !               */
+/* !  Media Query  */
+/* !               */
+@media (max-width: 768px) {
+  .sectionOne-formulaire {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .sectionOne-formulaire form {
+    order: 1;
+  }
+}

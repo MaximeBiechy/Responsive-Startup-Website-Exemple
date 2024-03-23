@@ -1,0 +1,38 @@
+/* !             */
+/* ! Section One */
+/* !             */
+.sectionOne {
+    display: grid;
+    gap: 20px;
+    margin: 20px auto;
+}
+
+.sectionOne-content-text {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.sectionOne-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    margin: 0 auto;
+}
+
+.sectionOne-btn {
+    justify-self: center;
+}
+
+.sectionOne-content-text {
+    font-size: var(--sub);
+    font-family: var(--base-font);
+  }
+
+/* !               */
+/* !  Media Query  */
+/* !               */
+@media (max-width: 768px){
+    .sectionOne-images {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
