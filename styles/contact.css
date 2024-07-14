@@ -1,8 +1,8 @@
 body {
   display: grid;
   min-height: 100vh;
+  position: relative;
 }
-
 
 
 .hero {
@@ -25,6 +25,7 @@ body {
   font-family: var(--base-font);
   font-size: var(--sub);
 }
+
 .sectionOne-formulaire {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -39,7 +40,7 @@ body {
   flex-direction: column;
 }
 
-.sectionOne-formulaire label{
+.sectionOne-formulaire label {
   font-family: var(--base-font);
   font-size: var(--sub);
 }
@@ -55,6 +56,12 @@ textarea {
 
 .submit-btn {
   margin-top: 10px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 /* !               */
