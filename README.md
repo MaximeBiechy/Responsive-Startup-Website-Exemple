@@ -1,4 +1,4 @@
-# Responsive-Startup-Website
+# Responsive-Startup-Website-Exemple
 
 ![image](https://github.com/user-attachments/assets/551e5d17-6cb3-4730-bcad-de7fbca08b6d)
 
